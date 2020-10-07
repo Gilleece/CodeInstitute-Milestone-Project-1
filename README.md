@@ -1,23 +1,32 @@
-# Your Project's Name
+# Slay International Website
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+This website is designed to be the primary online presence of a start-up called "Slay International". This Korean based company is focused on 3 primary services: Acting as an international model and talent agency for the Korean market, copywriting/translation (English -> Korean and vice versa), and production service for promotional materials such as video advertising. In making this website I strive to coherently present these options to potential customers and ensure that the website quickly and efficiently leads them to the information they require while maintaing an appealing and professional image for the company. 
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+In making this website I strive to coherently present these options to potential customers and ensure that the website quickly and efficiently leads them to the information they require while maintaing an appealing and professional image for the company.
+
+The primary user of this website will be customers wishing to avail of one of the 3 services available, a possible secondary user maybe models that wish to be promoted through the company.
+
+The site will feature a homepage, with a brief overview/introduction and then 4 main sections. 1 for each service and the final 4th section as a contact page.
+
+Potential user stories:
+- As a record label producing a music video, I want to hire a model. I go to the site, see the model section, click on it, see the gallery of models and then go to the contact page to contact the company about a specific model that I would like to hire.
+-As a Korean company selling a product to the international market, I want to have my marketing materials translated. I choose the korean version of the site then I go to the copywriting section of the site, see the information and then reach out through the contact page.
+-As a non-Korean company selling a product to the Korean market, I want to have my marketing materials translated and localized. I go to the English version of the site then I go to the copywriting section of the site, see the information and then reach out through the contact page.
+- As a company looking to have a complete video advertisement made, I go to the production section of the site, see the information and then reach out through the contact page. I potentially also look at the model gallery for specific models that I would like to use in my production.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The site will have both an English version and Korean version, that can be toggled at anytime through the relevant flag in the upper right corner of the website.
+There will be 5 sections: Home, models, copywriting, production, contact.
+Home, copyingwriting, production will have text and images to display relevant information to the user.
+Models page will have a gallery, clicking on the model's image will bring up a profile for them.
+The contact page will have a contact form.
  
-### Existing Features
+### (TO BE DONE) Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -30,10 +39,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- HTML
+- CSS
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** to aid with responsive design of the site.
 
 
 ## Testing
