@@ -16,7 +16,9 @@ Potential user stories:
 -As a non-Korean company selling a product to the Korean market, I want to have my marketing materials translated and localized. I go to the English version of the site then I go to the copywriting section of the site, see the information and then reach out through the contact page.
 - As a company looking to have a complete video advertisement made, I go to the production section of the site, see the information and then reach out through the contact page. I potentially also look at the model gallery for specific models that I would like to use in my production.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The following are 2 initial mockups that I created in Balsamiq as a general layout, one has a more colourful button navigation bar while the other is text based with a drop down menu on mobile:
+1. https://github.com/Gilleece/CodeInstitute-Milestone-Project-1/blob/master/assets/images/misc/wireframe.png
+2. https://github.com/Gilleece/CodeInstitute-Milestone-Project-1/blob/master/assets/images/misc/wireframe2.png
 
 ## Features
 
