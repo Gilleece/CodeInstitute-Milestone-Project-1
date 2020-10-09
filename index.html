@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Sean</title>
+    <title>Slay International</title>
 </head>
 <body>
     <header>
@@ -15,14 +14,14 @@
             <a class="navbar-brand" href="index.html">
             <img src="/assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="logo">             
             </a>
-            <h5 class="my-0 mr-md-auto font-weight-normal slay-orange">Slay International</h5>
+            <h5 class="my-0 mr-md-auto font-weight-normal slay-orange d-none d-sm-block">Slay International</h5>
             <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2 slay-orange nav-items" href="#">Models</a>
                 <a class="p-2 slay-orange nav-items" href="#">Copywriting</a>
                 <a class="p-2 slay-orange nav-items" href="#">Production</a>
                 <a class="p-2 slay-orange nav-items" href="#">Contact</a>
             </nav>
-            <a class="btn btn-secondary" href="#">한국어</a>
+            <a lang="ko" class="btn btn-secondary" href="#">한국어</a>
         </div>
     </header>
     <!--<section class="container-fluid">
@@ -97,23 +96,47 @@
     </section>-->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">
+            <div class="col-sm-6 d-none d-sm-block">
+               <p class="inline-block">
                 Slay International Copyright 2020 <br>
                 Other such random details.
                 </p>
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Contact:</h5>
-                <p class="inline-block">
-                    email@address.com <br>
-                    111-222-3333 <br>
-                    Address                    
-                </p>
+           
+            <div class="col-sm-6 d-none d-sm-block">
+                <ul class="list-inline social-links float-right">
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">Linkedin</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <span class="sr-only">Github</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social</h5>
+
+            <div class="col-sm-6 d-sm-none text-center">
+               <p class="inline-block">
+                Slay International Copyright 2020 <br>
+                Other such random details.
+                </p>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a href="#" target="_blank">
@@ -141,6 +164,7 @@
                     </li>
                 </ul>
             </div>
+
         </div>
     </footer>
 </body>
