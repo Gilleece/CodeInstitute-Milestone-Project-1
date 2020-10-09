@@ -81,6 +81,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+Color scheme based on 2 templates on color.adobe.com (https://color.adobe.com/search?q=ED772D&t=hex and https://color.adobe.com/search?q=ed772d&t=hex)
+
+Pricing template on bootstrap was used as a starting point for the header and navigation menu.
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
@@ -89,4 +93,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I took inspiration for the header from the "Pricing" bootstrap template.
