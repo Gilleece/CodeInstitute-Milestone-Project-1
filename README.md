@@ -85,6 +85,12 @@ Color scheme based on 2 templates on color.adobe.com (https://color.adobe.com/se
 
 Pricing template on bootstrap was used as a starting point for the header and navigation menu.
 
+Code Institute "Love Running" project code was modified for the gallery.
+
+Code Institute user centric frontend development mini-project was used as a guide for the footer.
+
+Code Institute user centric frontend development mini-project was used as a guide for some of the css styling (padding/margins to be specific).
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
