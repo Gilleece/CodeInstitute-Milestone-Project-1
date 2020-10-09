@@ -85,13 +85,15 @@ Color scheme based on 2 templates on color.adobe.com (https://color.adobe.com/se
 
 Pricing template on bootstrap was used as a starting point for the header and navigation menu.
 
-Code Institute "Love Running" project code was modified for the gallery.
+Code Institute "Love Running" project code was modified for the gallery and hero image.
 
 Code Institute user centric frontend development mini-project was used as a guide for the footer.
 
 Code Institute user centric frontend development mini-project was used as a guide for some of the css styling (padding/margins to be specific).
 
-Hero Image code based on: https://gist.github.com/adamdehaven/dceabb07450295fec6fc
+Some of hero Image code based on: https://gist.github.com/adamdehaven/dceabb07450295fec6fc
+
+".center" used from https://www.w3schools.com/howto/howto_css_center-vertical.asp
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)

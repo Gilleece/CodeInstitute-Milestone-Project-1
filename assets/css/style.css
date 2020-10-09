@@ -31,6 +31,7 @@
 
 .bg-nav {
     background-color: #0c0402;
+    min-height: 70px;
 }
 
 .btn-secondary {
@@ -85,7 +86,7 @@ p, a {
 }
 
 .generic-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -96,20 +97,93 @@ p, a {
         margin-right: 5px;
     }
 
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 /* ------------------------------------------------------------Hero Image */
 
-.hero-image {
+#hero-image{
+  height:100%;
   width:100%;
-  height:500px;
-  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-attachment: fixed;
+  background: url("https://s.studiobinder.com/wp-content/uploads/2016/11/The-Best-4K-Video-Cameras-for-Filmmakers-Header.jpg") no-repeat center center;
+  
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
-.hero-image h5 {
-  color:white;
+
+.hero-image h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f5f2f5;
   text-shadow:2px 2px #333;
+}
+
+.hero-image h5 {
+    font-size: 24px;
+    font-family: "EB Garamond", sans-serif;
+    color: #f5f2f5;
+}
+
+#hero-outer{
+  height:100vh;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes hero-zoom{
+  from{
+      transform: scale(1);
+  }
+    to{
+      transform: scale(1.1);
+    }
+}
+
+/* ------------------------------------------------------------About us */
+
+#about-us {
+  width:100%; 
+  height:77vh;
+  background-color: #f5f2f5;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-us-heading {
+    font-family: "Oswald", sans-serif;
+    font-size: 48px;
+    margin-top: 35px;
+}
+
+/* ------------------------------------------------------------Buttons */
+
+.btn-primary {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    background-color: #ED772D;
+    border-color: #ED772D;
+    color: #f5f2f5;
+}
+
+.btn-primary:hover {
+    background-color: #3286bf;
+    border-color: #3286bf;
+    color: #f5f2f5;
+}
+
+/* ------------------------------------------------------------General */
+
+body {
+    background-color: #0c0402;
 }
 
 /* ------------------------------------------------------------Footer */
@@ -196,6 +270,10 @@ button[type="submit"] {
     .social-links {
     padding-bottom: 15px;
     float:left;
+    }
+
+    .hero-image {
+    height:70vh;
     }
 
 
