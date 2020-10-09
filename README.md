@@ -91,6 +91,8 @@ Code Institute user centric frontend development mini-project was used as a guid
 
 Code Institute user centric frontend development mini-project was used as a guide for some of the css styling (padding/margins to be specific).
 
+Hero Image code based on: https://gist.github.com/adamdehaven/dceabb07450295fec6fc
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 

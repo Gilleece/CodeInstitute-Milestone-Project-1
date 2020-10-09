@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* ------------------------------------------------------------Colours */
 
@@ -42,10 +43,21 @@
     text-decoration:none;
 }
 
+.company-name {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
 /* ------------------------------------------------------------Paddings/margins/text */
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
+    font-family: "Oswald", sans-serif;
     margin: 0;
+}
+
+p, a {
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 300;
 }
 
 .uppercase {
@@ -53,7 +65,7 @@ h1,h2,h3,h4 {
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
     color: #f5f2f5;
 }
@@ -72,22 +84,40 @@ h1,h2,h3,h4 {
     float: none;
 }
 
-.history-heading,
-.section-heading {
+.generic-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
+.lang-btn-mobile {
+        position:absolute; top:1; right:0;
+        margin-right: 5px;
+    }
 
+/* ------------------------------------------------------------Hero Image */
+
+.hero-image {
+  width:100%;
+  height:500px;
+  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.hero-image h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
 
 /* ------------------------------------------------------------Footer */
 
 footer {
     background-color: #0c0402;
     color: #f5f2f5;
-    min-height: 120px;
+    min-height: 60px;
     margin: 0;
 }
 
@@ -152,6 +182,7 @@ button[type="submit"] {
     background-color: #ea4610;
 }
 
+
 /* ------------------------------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -166,5 +197,6 @@ button[type="submit"] {
     padding-bottom: 15px;
     float:left;
     }
+
 
 }
