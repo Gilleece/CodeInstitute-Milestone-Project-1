@@ -57,8 +57,13 @@ h1,h2,h3,h4,h5 {
 }
 
 p, a {
-    font-family: "EB Garamond", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
+}
+
+nav a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
 }
 
 .uppercase {
@@ -221,6 +226,11 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.center-list {
+  display: flex;
+  justify-content: center;
 }
 
 /* ------------------------------------------------------------Three Reasons */
