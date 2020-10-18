@@ -95,6 +95,8 @@ Some of hero Image code based on: https://gist.github.com/adamdehaven/dceabb0745
 
 ".center" used from https://www.w3schools.com/howto/howto_css_center-vertical.asp
 
+Card image formatting tip from https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
