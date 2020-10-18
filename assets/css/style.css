@@ -44,6 +44,10 @@
     text-decoration:none;
 }
 
+.active-nav {
+    color:#f5f2f5;    
+}
+
 .company-name {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
@@ -198,6 +202,7 @@ nav a {
     color: #f5f2f5;
 }
 
+
 /* ------------------------------------------------------------General */
 
 body {
@@ -310,4 +315,12 @@ button[type="submit"] {
 
     
 
+}
+
+/* ------------------------------------------------------------Placeholder/Dev */
+
+.placeholder-section {
+    width:100%; 
+    min-height: 77vh;
+    background-color: #f5f2f5;
 }
