@@ -97,6 +97,10 @@ Some of hero Image code based on: https://gist.github.com/adamdehaven/dceabb0745
 
 Card image formatting tip from https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width
 
+This guide was followed for the collapsible mobile menu: https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22.
+
+Ajax was used for the collapsible menu
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 

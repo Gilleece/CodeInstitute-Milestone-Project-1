@@ -5,36 +5,186 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Slay International</title>
 </head>
 <body>
     <header>
-       <!--Nav Bar-->
-       <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 shadow-sm bg-nav fixed-top">
+       <nav class="navbar navbar-dark navbar-expand-md d-flex  flex-md-row p-3 px-md-4 shadow-sm bg-nav fixed-top">
+            <!-- Brand -->
             <a class="navbar-brand-center" href="index.html">
-            <img src="assets/images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="logo">
+            <img src="assets/images/logo.png" width="40" height="40" class="d-inline" alt="logo">
             </a>
-            <a href="index.html" class="my-0 mr-md-auto font-weight-normal slay-orange d-none d-sm-block company-name uppercase nav-items"><h5 >Slay International</h5></a>
-            <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2 slay-orange nav-items active-nav" href="models.html">Models</a>
-                <a class="p-2 slay-orange nav-items" href="copywriting.html">Copywriting</a>
-                <a class="p-2 slay-orange nav-items" href="production.html">Production</a>
-                <a class="p-2 slay-orange nav-items" href="contact.html">Contact</a>
-            </nav>
-            <!--Language switcher-->
-            <!--<a lang="ko" class="btn btn-secondary lang-btn-mobile" href="#">한국어</a>-->
-        </div>
-    </header>   
+            <a href="index.html" class="font-weight-normal slay-orange d-inline company-name uppercase nav-items mr-auto"><h5 >Slay International</h5></a>
 
-   <section>          
-      <div class="container-fluid placeholder-section">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center center">
-                    <h2 class="uppercase">Models Placeholder</h2>                                        
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="p-2 slay-orange nav-items active-nav" href="models.html">Models</a>
+                </li>
+                <li class="nav-item">
+                    <a class="p-2 slay-orange nav-items" href="copywriting.html">Copywriting</a>
+                </li>
+                <li class="nav-item">
+                    <a class="p-2 slay-orange nav-items" href="production.html">Production</a>
+                </li>
+                <li class="nav-item">
+                    <a class="p-2 slay-orange nav-items" href="contact.html">Contact</a>
+                </li>
+                <!--Language switcher
+                <li class="nav-item">
+                    <a lang="ko" class="btn btn-secondary" href="#">한국어</a>
+                </li>-->
+                </ul>            
+            </div>            
+        </nav>
+    </header>   
+    
+
+   <section id="gallery">
+      <h2 class="gallery-heading text-center slay-black ">Meet Our Models</h2>
+        <!--About Us Cards-->
+        <div class="row text-center nomargin nopadding">
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model1.jpg" alt="Photo of models">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
                 </div>
             </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model2.jpg" alt="Photo of dictionary">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model3.jpg" alt="Photo of film set">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model4.jpg" alt="Photo of models">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model5.jpg" alt="Photo of dictionary">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model6.jpg" alt="Photo of film set">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model7.jpg" alt="Photo of film set">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model8.jpg" alt="Photo of film set">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>            
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model1.jpg" alt="Photo of models">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model2.jpg" alt="Photo of dictionary">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model3.jpg" alt="Photo of film set">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model4.jpg" alt="Photo of models">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model5.jpg" alt="Photo of dictionary">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model6.jpg" alt="Photo of film set">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model7.jpg" alt="Photo of film set">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="card">
+                <img class="card-img-top" src="assets/images/models/model8.jpg" alt="Photo of film set">
+                <div class="card-body gallery-card-body">
+                    <h4 class="card-title">John Smith</h4>
+                </div>
+                </div>            
+            </div>
         </div>
+            
+                
     </section>
 
     <footer class="container-fluid text-center">        

@@ -31,7 +31,7 @@
 
 .bg-nav {
     background-color: #0c0402;
-    min-height: 70px;
+    /*min-height: 70px;*/
 }
 
 .btn-secondary {
@@ -103,8 +103,6 @@ nav a {
     margin-bottom: 40px;
 }
 
-
-
 .center {
   margin: 0;
   position: absolute;
@@ -117,6 +115,14 @@ nav a {
 .card-text {
     font-weight: 500;
     font-family: "EB Garamond", sans-serif;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.nopadding {
+    padding: 0 !important;
 }
 
 /* ------------------------------------------------------------Hero Image */
@@ -166,7 +172,6 @@ nav a {
 #about-us {
   width:100%; 
   min-height: 77vh;
-  /**height:77vh;**/
   background-color: #f5f2f5;
   overflow: hidden;
   position: relative;
@@ -186,6 +191,35 @@ nav a {
     object-fit: cover;
 }
 
+/* ------------------------------------------------------------Gallery */
+
+#gallery {
+  width:100%; 
+  min-height: 77vh;  
+  background-color: #f5f2f5;
+  overflow: hidden;
+  position: relative;
+  padding: 0px 40px;
+}
+
+.gallery-heading {
+    font-family: "Oswald", sans-serif;
+    font-size: 48px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.gallery-card-title {
+    padding: 0;
+}
+
+.gallery-card-body {
+    padding: 6px 5px 0px 5px;    
+    background: #0c0402;
+    color:#ED772D;    
+}
+
+
 /* ------------------------------------------------------------Buttons */
 
 .btn-primary {
@@ -203,10 +237,12 @@ nav a {
 }
 
 
+
 /* ------------------------------------------------------------General */
 
 body {
     background-color: #0c0402;
+    /*padding-top: 70px;*/
 }
 
 /* ------------------------------------------------------------Footer */
@@ -310,10 +346,25 @@ button[type="submit"] {
     
     .lang-btn-mobile {
             position:absolute; top:1; right:0;
-            margin-right: 5px;
+            margin-right: 70px;
         }
 
+    nav div ul li {
+        padding: 8px;
+    }    
+}
+
+@media(max-width: 576px) {
     
+    
+
+    .card-img-top {            
+            height: 50vw;            
+        }
+
+    .gallery-heading {
+            padding-top: 40px;            
+        }
 
 }
 
