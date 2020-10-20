@@ -22,29 +22,25 @@ The following are 2 initial mockups that I created in Balsamiq as a general layo
 
 ## Features
 
-The site will have both an English version and Korean version, that can be toggled at anytime through the relevant flag in the upper right corner of the website.
-There will be 5 sections: Home, models, copywriting, production, contact.
-Home, copyingwriting, production will have text and images to display relevant information to the user.
-Models page will have a gallery, clicking on the model's image will bring up a profile for them.
-The contact page will have a contact form.
+There are 5 sections: Home, models, copywriting, production, contact.
+Home, copyingwriting, production have text and images to display relevant information to the user.
+Models page has a gallery that displays an image of each model, and their name underneath.
+The contact page has a (currently non-functional placeholder) contact form.
  
 ### (TO BE DONE) Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- The contact form needs to be made functional, currently it is placeholder.
 
 ### Features Left to Implement
-- Another feature idea
+- The website will require a Korean version.
 
 ## Technologies Used
 
 - HTML
 - CSS
-- [Bootstrap](https://getbootstrap.com/)
-    - The project uses **Bootstrap** to aid with responsive design of the site.
+- The project uses **Bootstrap** to aid with responsive design of the site.
+- Ajax
+- Font Awesome
+
 
 
 ## Testing
@@ -76,39 +72,39 @@ In particular, you should provide all details of the differences between the dep
 - Different configuration files?
 - Separate git branch?
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+To run the website locally, simple download from github (here: https://github.com/Gilleece/CodeInstitute-Milestone-Project-1) and double click on index.html after extracting the folder.
 
 
 ## Credits
 
-Color scheme based on 2 templates on color.adobe.com (https://color.adobe.com/search?q=ED772D&t=hex and https://color.adobe.com/search?q=ed772d&t=hex)
+- Color scheme based on 2 templates on color.adobe.com (https://color.adobe.com/search?q=ED772D&t=hex and https://color.adobe.com/search?q=ed772d&t=hex)
 
-Pricing template on bootstrap was used as a starting point for the header and navigation menu.
+- Pricing template on bootstrap was used as a starting point for the header and navigation menu.
 
-Code Institute "Love Running" project code was modified for the gallery and hero image.
+- Code Institute "Love Running" project code was used as a starting point for the hero image.
 
-Code Institute user centric frontend development mini-project was used as a guide for the footer.
+- Code Institute user centric frontend development mini-project was used as a guide for the footer.
 
-Code Institute user centric frontend development mini-project was used as a guide for some of the css styling (padding/margins to be specific).
+- Code Institute user centric frontend development mini-project was used as a guide for some of the css styling (padding/margins to be specific).
 
-Some of hero Image code based on: https://gist.github.com/adamdehaven/dceabb07450295fec6fc
+- Some of hero Image code based on: https://gist.github.com/adamdehaven/dceabb07450295fec6fc
 
-".center" used from https://www.w3schools.com/howto/howto_css_center-vertical.asp
+- ".center" used from https://www.w3schools.com/howto/howto_css_center-vertical.asp
 
-Card image formatting tip from https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width
+- Card image formatting tip from https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width
 
-This guide was followed for the collapsible mobile menu: https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22.
+- This guide was followed for the collapsible mobile menu: https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22.
 
-Ajax was used for the collapsible menu
-
-Royalty free, free to use, stock photos from pexels.com
+- Ajax was used for the collapsible menu
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- N/A
 
 ### Media
-- The photos used in this site were obtained from ...
+- Royalty free, free to use, stock photos from pexels.com
 
 ### Acknowledgements
 
 - I took inspiration for the header from the "Pricing" bootstrap template.
+
+-I browsed templated.co for general layout ideas (however no code was used from here)
