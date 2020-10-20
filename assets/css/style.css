@@ -125,6 +125,10 @@ nav a {
     padding: 0 !important;
 }
 
+.main-padding {
+    padding: 25px 20px 20px 20px;
+}
+
 /* ------------------------------------------------------------Hero Image */
 
 #hero-image{
@@ -158,15 +162,6 @@ nav a {
   position: relative;
 }
 
-@keyframes hero-zoom{
-  from{
-      transform: scale(1);
-  }
-    to{
-      transform: scale(1.1);
-    }
-}
-
 /* ------------------------------------------------------------About us */
 
 #about-us {
@@ -189,6 +184,7 @@ nav a {
     width: 100%;
     height: 15vw;
     object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
 }
 
 /* ------------------------------------------------------------Gallery */
@@ -217,9 +213,13 @@ nav a {
 .gallery-card-body {
     padding: 6px 5px 0px 5px;    
     background: #0c0402;
-    color:#ED772D;    
+    color:#ED772D; 
+    border-radius: 0px 0px 25px 25px;   
 }
 
+.card {
+    border-radius: 25px;
+}
 
 /* ------------------------------------------------------------Buttons */
 
@@ -245,6 +245,64 @@ body {
     background-color: #0c0402;
     padding-top: 70px;
 }
+
+.main-section {
+    width:100%; 
+    min-height: 77vh;
+    background-color: #f5f2f5;
+}
+
+.main-image {
+    height: 70vh;
+    object-fit: cover;    
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    border-radius: 25px;
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: #ED772D;
+}
+
+.features-tile {
+    background-color: rgba(245, 242, 245, 0.8);
+    height: 32.5vh;  
+    border-radius: 25px;     
+}
+
+.top-tile {
+    margin: 0vh 2.5vh 2.5vh 2.5vh;
+}
+
+.bottom-tile {
+    margin: 2.5vh 2.5vh 0vh 2.5vh;
+}
+
+/* ------------------------------------------------------------Copywriting */
+
+.copywriting-section {
+    width:100%; 
+    min-height: 77vh;
+    background-color: #f5f2f5;
+    background-image: url("../images/copywriting/copywriting-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/* ------------------------------------------------------------Production */
+
+.production-section {
+    width:100%; 
+    min-height: 77vh;
+    background-color: #f5f2f5;
+    background-image: url("../images/production/production-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 
 /* ------------------------------------------------------------Footer */
 
@@ -292,10 +350,9 @@ footer {
 /* ------------------------------------------------------------Contact Form */
 
 .contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;    
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    margin-top: 5px;   
 }
 
 .center-form {
@@ -305,10 +362,35 @@ footer {
 }
 
 button[type="submit"] {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    color: #f5f2f5;
-    background-color: #ea4610;
+    color: #fff;
+    background-color: #ED772D;
+}
+
+.contact-section {
+    width:100%; 
+    min-height: 77vh;
+    background-color: #f5f2f5;
+    background-image: url("../images/contact/contact-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.contact-tile {
+    background-color: rgba(245, 242, 245, 0.8);    
+    border-radius: 25px;
+    min-height: 50vh;
+    height: 50%;
+    width: 80%;
+    padding: 0px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
@@ -345,9 +427,16 @@ button[type="submit"] {
     }    
 }
 
-@media(max-width: 576px) {
-    
-    
+@media(max-width: 768px) {
+    .top-tile, .bottom-tile {
+        margin: 2.5vh;
+    }
+    .mobile-first-tile {
+        margin: 0vh 2.5vh 2.5vh 2.5vh;
+    }
+}
+
+@media(max-width: 576px) { 
 
     .card-img-top {            
             height: 50vw;            
@@ -361,12 +450,30 @@ button[type="submit"] {
         padding-top: 35px;
     }
 
+    .mobile-first-tile {
+        margin: 7.5vh 2.5vh 2.5vh 2.5vh;
+    }
+
 }
 
-/* ------------------------------------------------------------Placeholder/Dev */
 
-.placeholder-section {
-    width:100%; 
-    min-height: 77vh;
-    background-color: #f5f2f5;
+
+/* ------------------------------------------------------------Animations3*/
+
+@keyframes hero-zoom{
+  from{
+      transform: scale(1);
+  }
+    to{
+      transform: scale(1.1);
+    }
+}
+
+@keyframes main-image-zoom{
+  from{
+      transform: scale(1);
+  }
+    to{
+      transform: scale(1.1);
+    }
 }

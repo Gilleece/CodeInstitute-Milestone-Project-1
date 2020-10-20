@@ -101,6 +101,8 @@ This guide was followed for the collapsible mobile menu: https://www.w3schools.c
 
 Ajax was used for the collapsible menu
 
+Royalty free, free to use, stock photos from pexels.com
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
