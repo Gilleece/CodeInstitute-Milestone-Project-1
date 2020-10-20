@@ -129,6 +129,10 @@ nav a {
     padding: 25px 20px 20px 20px;
 }
 
+.card-btm-margin {
+    margin-bottom: 5px;
+}
+
 /* ------------------------------------------------------------Hero Image */
 
 #hero-image{
@@ -190,13 +194,17 @@ nav a {
 /* ------------------------------------------------------------Gallery */
 
 #gallery {
-  width:100%; 
-  min-height: 77vh;  
-  background-color: #f5f2f5;
-  overflow: hidden;
-  position: relative;
-  padding: 0px 40px;
-  padding-bottom: 15px;
+    width:100%; 
+    min-height: 77vh;  
+    background-color: #f5f2f5;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 40px;
+    padding-bottom: 15px;    
+    background-image: url("../images/gallery/gallery-bg.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: 50% 50%;
 }
 
 .gallery-heading {
@@ -214,11 +222,12 @@ nav a {
     padding: 6px 5px 0px 5px;    
     background: #0c0402;
     color:#ED772D; 
-    border-radius: 0px 0px 25px 25px;   
+    border-radius: 0px 0px 25px 25px;     
 }
 
 .card {
     border-radius: 25px;
+    border: 0px; 
 }
 
 /* ------------------------------------------------------------Buttons */
@@ -433,6 +442,9 @@ button[type="submit"] {
     }
     .mobile-first-tile {
         margin: 0vh 2.5vh 2.5vh 2.5vh;
+    }
+    .card-btm-margin {
+        margin-bottom: 10px;
     }
 }
 
