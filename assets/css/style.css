@@ -270,8 +270,13 @@ body {
 }
 
 .feature-icon {
-    font-size: 50px;
+    font-size: 40px;
     color: #ED772D;
+}
+
+.features-text {
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 500;
 }
 
 .features-tile {
