@@ -281,7 +281,7 @@ body {
 
 .features-tile {
     background-color: rgba(245, 242, 245, 0.8);
-    height: 32.5vh;  
+    min-height: 32.5vh;  
     border-radius: 25px;     
 }
 
