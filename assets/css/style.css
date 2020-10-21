@@ -133,6 +133,7 @@ nav a {
     margin-bottom: 5px;
 }
 
+
 /* ------------------------------------------------------------Hero Image */
 
 #hero-image{
@@ -282,6 +283,7 @@ body {
 .features-tile {
     background-color: rgba(245, 242, 245, 0.8);
     min-height: 32.5vh;  
+    max-width: 80%;
     border-radius: 25px;     
 }
 
@@ -396,7 +398,6 @@ button[type="submit"] {
     background-color: rgba(245, 242, 245, 0.8);    
     border-radius: 25px;
     min-height: 50vh;
-    height: 50%;
     width: 80%;
     padding: 0px;
     margin: 0;
@@ -427,7 +428,7 @@ button[type="submit"] {
     }
 
 
-}
+}   
 
 @media(max-width: 992px) {
     
@@ -450,6 +451,9 @@ button[type="submit"] {
     }
     .card-btm-margin {
         margin-bottom: 10px;
+    }
+     .justify-content-center-custom {
+    justify-content: center;
     }
 }
 
