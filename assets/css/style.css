@@ -139,11 +139,18 @@ nav a {
 #hero-image{
   height:100%;
   width:100%;
-  background: url("https://www.slrlounge.com/wp-content/uploads/2017/03/nathan-elson-portrait-tutorial.png") no-repeat center center;
+  
+  background: url("../images/hero-image.jpg") no-repeat center center;
   
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
+}
+
+.center-video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }
 
 .hero-image h2 {
@@ -229,6 +236,12 @@ nav a {
 .card {
     border-radius: 25px;
     border: 0px; 
+}
+
+.card:hover {
+    animation-name: card-zoom;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 /* ------------------------------------------------------------Buttons */
@@ -411,6 +424,12 @@ button[type="submit"] {
 
 /* ------------------------------------------------------------Media Queries */
 
+@media(min-width: 1920px) {
+    video {
+    width:100%;
+    }
+}
+
 @media(min-width: 992px) {
     .center-form {
     padding-top: 30px;
@@ -487,6 +506,15 @@ button[type="submit"] {
   }
     to{
       transform: scale(1.1);
+    }
+}
+
+@keyframes card-zoom{
+  from{
+      transform: scale(1);
+  }
+    to{
+      transform: scale(1.025);
     }
 }
 
