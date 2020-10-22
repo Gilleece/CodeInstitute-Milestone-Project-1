@@ -452,10 +452,10 @@ button[type="submit"] {
 
 @media(max-width: 992px) {
     
-    .lang-btn-mobile {
+    /**.lang-btn-mobile {
             position:absolute; top:1; right:0;
             margin-right: 70px;
-        }
+        }**/
 
     nav div ul li {
         padding: 8px;
