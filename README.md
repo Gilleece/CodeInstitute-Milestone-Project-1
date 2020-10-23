@@ -8,9 +8,12 @@
 
 This website is designed to be the primary online presence for a start-up called "Slay International". This Korean based company is focused on 3 primary services: an international model and talent agency for the Korean market, copywriting/translation (English -> Korean and vice versa), and production service for promotional materials such as video advertising. In making this website I strive to coherently present these options to potential customers and ensure that the website quickly and efficiently leads them to the information they require while maintaining an appealing and professional image for the company. The site is built as my first Milestone project during my study at Code Institute, with the focus being on HTML/CSS. The site utilizes bootstrap as a core component.
  
-# Table Of Contents
-
-- [Table of Contents](#Table Of Contents)
+# Table of contents
+1. [UX](#UX)
+2. [Features](#paragraph1)
+    1. [Existing Features](#subparagraph1)
+    2. [Future Features](#subparagraph1)
+3. [Another paragraph](#paragraph2)
 
 ## UX
 
@@ -42,10 +45,10 @@ Home, copyingwriting, production have text and images to display relevant inform
 Models page has a gallery that displays an image of each model, and their name underneath.
 The contact page has a (currently non-functional placeholder) contact form.
  
-### (TO BE DONE) Existing Features
+### Existing Features
 - The contact form needs to be made functional, currently it is placeholder.
 
-### Features Left to Implement
+### Future Features
 - The website will require a Korean version.
 
 ## Technologies Used
