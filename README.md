@@ -63,8 +63,8 @@ The contact page has a simple contact form for clients to reach out to the busin
 - Contact form (currently non-functional)
 
 ### Future Features <a name="future"></a>
-- The website will require a Korean version.
-- The contact form needs to be made functional.
+- The website will require a Korean version
+- The contact form needs to be made functional
 
 ## Technologies Used <a name="tech"></a>
 
@@ -141,17 +141,17 @@ To run the website locally, simple download from github ([here](https://github.c
 
 - Code Institute user centric frontend development mini-project was used as a guide for some of the css styling (padding/margins to be specific).
 
-- Some of hero Image code based on [this](https://gist.github.com/adamdehaven/dceabb07450295fec6fc)
+- Some of hero Image code based on [this](https://gist.github.com/adamdehaven/dceabb07450295fec6fc).
 
-- ".center" used from [here](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
+- ".center" used from [here](https://www.w3schools.com/howto/howto_css_center-vertical.asp).
 
-- Card image formatting tip from [this stackoverflow](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width)
+- Card image formatting tip from [this stackoverflow](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width).
 
 - [This](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22) guide was followed for the collapsible mobile menu.
 
-- I browsed [Templated](templated.co) for general layout ideas (however no code was used from here)
+- I browsed [Templated](templated.co) for general layout ideas (however no code was used from here).
 
 ### Media <a name="media"></a>
-- Royalty free stock photos and video from [Pexels](pexels.com)
+- Royalty free stock photos and video from [Pexels](pexels.com).
 
 
