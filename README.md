@@ -10,12 +10,18 @@ This website is designed to be the primary online presence for a start-up called
  
 # Table of contents
 1. [UX](#UX)
-2. [Features](#paragraph1)
-    1. [Existing Features](#subparagraph1)
-    2. [Future Features](#subparagraph1)
-3. [Another paragraph](#paragraph2)
+    1. [First Time Visitor Goals](#firsttime)
+    2. [Returning Visitor Goals](#returning)
+2. [Features](#features)
+    1. [Existing Features](#existing)
+    2. [Future Features](#future)
+3. [Technologies Used](#tech)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+6. [Media](#Media)
 
-## UX
+## UX <a name="UX"></a>
 
 In terms of the site's UI, the goal is to coherently present the services provided to potential customers and ensure that the website quickly and efficiently leads them to the information they require.
 
@@ -24,76 +30,102 @@ Here are the 2 initial wireframes that I made, using Balsamiq. The site's design
 ![](assets/readme/wireframe.png)
 ![](assets/wireframes/wireframe2.png)
 
-The primary user of this website will be customers wishing to avail of one of the 3 services available, a possible secondary user maybe models that wish to be promoted through the company.
+The primary visitor of this website will be customers wishing to avail of one of the 3 services available, secondary visitors would be models that wish to be promoted through the company.
 
 The site will feature a homepage, with a brief overview/introduction and then 4 main sections. 1 for each service and the final 4th section as a contact page.
 
-Potential user stories:
-- As a record label producing a music video, I want to hire a model. I go to the site, see the model section, click on it, see the gallery of models and then go to the contact page to contact the company about a specific model that I would like to hire.
--As a Korean company selling a product to the international market, I want to have my marketing materials translated. I choose the korean version of the site then I go to the copywriting section of the site, see the information and then reach out through the contact page.
--As a non-Korean company selling a product to the Korean market, I want to have my marketing materials translated and localized. I go to the English version of the site then I go to the copywriting section of the site, see the information and then reach out through the contact page.
-- As a company looking to have a complete video advertisement made, I go to the production section of the site, see the information and then reach out through the contact page. I potentially also look at the model gallery for specific models that I would like to use in my production.
+### First Time Visitor Goals: <a name="firsttime"></a>
+- As a first time visitor I need to be able to navigate the site easily and clearly understand the services provided.
+- As a first time visitor wishing to avail of the modelling service, I need to see a selection of models and a means of contacting the business.
+- As a first time visitor wishing to avail of copywriting or production services, I need to see data as to why I should choose this company and a means of contacting the business.
 
-The following are 2 initial mockups that I created in Balsamiq as a general layout, one has a more colourful button navigation bar while the other is text based with a drop down menu on mobile:
-1. https://github.com/Gilleece/CodeInstitute-Milestone-Project-1/blob/master/assets/images/misc/wireframe.png
-2. https://github.com/Gilleece/CodeInstitute-Milestone-Project-1/blob/master/assets/images/misc/wireframe2.png
+### Returning Visitor Goals: <a name="returning"></a>
+- As a returning user, I want to see an updated gallery of the currently available models.
+- As a returning user, interested in the production service, I want to be able to see a video of some of the latest work.
 
-## Features
+## Features <a name="features"></a>
 
 There are 5 sections: Home, models, copywriting, production, contact.
 Home, copyingwriting, production have text and images to display relevant information to the user.
 Models page has a gallery that displays an image of each model, and their name underneath.
-The contact page has a (currently non-functional placeholder) contact form.
+The contact page has a simple contact form for clients to reach out to the business.
  
-### Existing Features
-- The contact form needs to be made functional, currently it is placeholder.
+### Existing Features <a name="existing"></a>
+- Reponsive design
+- Gallery 
+- Video hero section 
+- Social links 
+- Embedded video for example of work 
+- Contact form (currently placeholder)
 
-### Future Features
+### Future Features <a name="future"></a>
 - The website will require a Korean version.
+- The contact form needs to be made functional.
 
-## Technologies Used
+## Technologies Used <a name="tech"></a>
 
-- HTML
-- CSS
-- The project uses **Bootstrap** to aid with responsive design of the site.
-- Ajax
-- Font Awesome
+1. [HTML:](https://www.w3.org/html/)
+    - HTML was used for the content and structure of the site, with emphasis placed on semantic elements and text alternatives for screen readers.
+1. [CSS:](https://www.w3.org/Style/CSS/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Bootstrap 4.5.2:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Oswald' and "EB Garamond" font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [GIMP:](https://www.gimp.org/)
+    - GIMP was used to create the logo, resizing images and editing photos for the website.
+1. [Vegas Pro:](https://www.vegascreativesoftware.com/ie/vegas-pro/)
+    - Vegas Pro was used to edit the video in the hero image.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
 
 
 
-## Testing
+## Testing <a name="testing"></a>
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing was carried out both manually and automatically. While building the site I had a preview open in my browser that I would check
+after most changes to ensure that the results were as intended. I made use of developer tools within the browser constantly to check
+across a number of things, in particular the responsiveness of the site.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+As an example of how I fixed an issue, I would sometimes find that text would not stay within a card, or would be misaligned. I would then
+use developer tools to check on that specific elements padding, margin etc and what other parts of the site were affecting it. Through developer
+tools I could quickly and easily test numerous fixes and upon finding one that worked I would take it into my code and then test again once it
+was actually present in my code. This consistent and rigourous testing allowed for me to stay ontop of each section of the site, as I built it, 
+and ensure responsiveness and consistent across a wide range of devices. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Automatic testing came in the form of the [W3C Validator](https://gilleece.github.io/CodeInstitute-Milestone-Project-1/) (which, as of this moment, shows no errors).
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+## Deployment <a name="deployment"></a>
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I deployed this site through GitHub pages. This was a simple process, as follows:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- Log into GitHub
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- Go to the repository (you must own it, so fork mine if deploying this site)
 
-## Deployment
+- Go to settings
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+- Scroll down to "GitHub Pages" section
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+- Select the source (I chose master branch in this instance)
+
+- After some time, the site will be deployed at: http://<username>.github.io/<repository-name>
 
 To run the website locally, simple download from github (here: https://github.com/Gilleece/CodeInstitute-Milestone-Project-1) and double click on index.html after extracting the folder.
 
 
-## Credits
+## Credits <a name="credits"></a>
+- Thanks to [Reuben Ferrante], my Code Institute mentor, for his guidance and insight.
+
+- Thanks to the Code Institute Slack community, it was a great resource for issues.
 
 - Color scheme based on 2 templates on color.adobe.com (https://color.adobe.com/search?q=ED772D&t=hex and https://color.adobe.com/search?q=ed772d&t=hex)
 
@@ -113,16 +145,9 @@ To run the website locally, simple download from github (here: https://github.co
 
 - This guide was followed for the collapsible mobile menu: https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22.
 
-- Ajax was used for the collapsible menu
-
-### Content
-- N/A
-
-### Media
-- Royalty free, free to use, stock photos from pexels.com
-
-### Acknowledgements
-
-- I took inspiration for the header from the "Pricing" bootstrap template.
-
 -I browsed templated.co for general layout ideas (however no code was used from here)
+
+### Media <a name="media"></a>
+- Royalty free, free to use, stock photos and video from pexels.com
+
+
