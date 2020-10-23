@@ -28,7 +28,11 @@ In terms of the site's UI, the goal is to coherently present the services provid
 Here are the 2 initial wireframes that I made, using Balsamiq. The site's design changed somewhat (specifically the navbar) during production but the foundational layout remains.
 
 ![](assets/readme/wireframe.png)
-![](assets/wireframes/wireframe2.png)
+![](assets/readme/wireframe2.png)
+
+Here are the 2 colour schemes that the site is based upon:
+
+![](assets/readme/colours.png)
 
 The primary visitor of this website will be customers wishing to avail of one of the 3 services available, secondary visitors would be models that wish to be promoted through the company.
 
@@ -46,17 +50,17 @@ The site will feature a homepage, with a brief overview/introduction and then 4 
 ## Features <a name="features"></a>
 
 There are 5 sections: Home, models, copywriting, production, contact.
-Home, copyingwriting, production have text and images to display relevant information to the user.
+Home, copywriting and production have text and images to display relevant information to the user.
 Models page has a gallery that displays an image of each model, and their name underneath.
 The contact page has a simple contact form for clients to reach out to the business.
  
 ### Existing Features <a name="existing"></a>
-- Reponsive design
+- Responsive design
 - Gallery 
 - Video hero section 
 - Social links 
 - Embedded video for example of work 
-- Contact form (currently placeholder)
+- Contact form (currently non-functional)
 
 ### Future Features <a name="future"></a>
 - The website will require a Korean version.
@@ -96,10 +100,10 @@ after most changes to ensure that the results were as intended. I made use of de
 across a number of things, in particular the responsiveness of the site.
 
 As an example of how I fixed an issue, I would sometimes find that text would not stay within a card, or would be misaligned. I would then
-use developer tools to check on that specific elements padding, margin etc and what other parts of the site were affecting it. Through developer
+use developer tools to check on that specific element's padding, margin etc and what other parts of the site were affecting it. Through developer
 tools I could quickly and easily test numerous fixes and upon finding one that worked I would take it into my code and then test again once it
 was actually present in my code. This consistent and rigourous testing allowed for me to stay ontop of each section of the site, as I built it, 
-and ensure responsiveness and consistent across a wide range of devices. 
+and ensure responsiveness and a consistent experience across a wide range of devices. 
 
 Automatic testing came in the form of the [W3C Validator](https://gilleece.github.io/CodeInstitute-Milestone-Project-1/) (which, as of this moment, shows no errors).
 
@@ -117,17 +121,17 @@ I deployed this site through GitHub pages. This was a simple process, as follows
 
 - Select the source (I chose master branch in this instance)
 
-- After some time, the site will be deployed at: http://<username>.github.io/<repository-name>
+- After some time, the site will be deployed at: ```http://<username>.github.io/<repository-name>```
 
-To run the website locally, simple download from github (here: https://github.com/Gilleece/CodeInstitute-Milestone-Project-1) and double click on index.html after extracting the folder.
+To run the website locally, simple download from github ([here](https://github.com/Gilleece/CodeInstitute-Milestone-Project-1)) and double click on index.html after extracting the folder.
 
 
 ## Credits <a name="credits"></a>
-- Thanks to [Reuben Ferrante], my Code Institute mentor, for his guidance and insight.
+- Thanks to [Reuben Ferrante](https://github.com/arex18), my Code Institute mentor, for his guidance and insight.
 
 - Thanks to the Code Institute Slack community, it was a great resource for issues.
 
-- Color scheme based on 2 templates on color.adobe.com (https://color.adobe.com/search?q=ED772D&t=hex and https://color.adobe.com/search?q=ed772d&t=hex)
+- Color scheme based on 2 templates on color.adobe.com ([first](https://color.adobe.com/search?q=ED772D&t=hex) and [second](https://color.adobe.com/search?q=ed772d&t=hex))
 
 - Pricing template on bootstrap was used as a starting point for the header and navigation menu.
 
@@ -137,17 +141,17 @@ To run the website locally, simple download from github (here: https://github.co
 
 - Code Institute user centric frontend development mini-project was used as a guide for some of the css styling (padding/margins to be specific).
 
-- Some of hero Image code based on: https://gist.github.com/adamdehaven/dceabb07450295fec6fc
+- Some of hero Image code based on [this](https://gist.github.com/adamdehaven/dceabb07450295fec6fc)
 
-- ".center" used from https://www.w3schools.com/howto/howto_css_center-vertical.asp
+- ".center" used from [here](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
 
-- Card image formatting tip from https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width
+- Card image formatting tip from [this stackoverflow](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width)
 
-- This guide was followed for the collapsible mobile menu: https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22.
+- [This](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22) guide was followed for the collapsible mobile menu.
 
--I browsed templated.co for general layout ideas (however no code was used from here)
+- I browsed [Templated](templated.co) for general layout ideas (however no code was used from here)
 
 ### Media <a name="media"></a>
-- Royalty free, free to use, stock photos and video from pexels.com
+- Royalty free stock photos and video from [Pexels](pexels.com)
 
 
