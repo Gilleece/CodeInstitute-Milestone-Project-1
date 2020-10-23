@@ -1,10 +1,25 @@
 # Slay International Website
 
-This website is designed to be the primary online presence of a start-up called "Slay International". This Korean based company is focused on 3 primary services: Acting as an international model and talent agency for the Korean market, copywriting/translation (English -> Korean and vice versa), and production service for promotional materials such as video advertising. In making this website I strive to coherently present these options to potential customers and ensure that the website quickly and efficiently leads them to the information they require while maintaing an appealing and professional image for the company. 
+[Live link](https://gilleece.github.io/CodeInstitute-Milestone-Project-1/)
+
+[GitHub Repository](https://github.com/Gilleece/CodeInstitute-Milestone-Project-1)
+
+![](assets/readme/responsiveexample.png)
+
+This website is designed to be the primary online presence for a start-up called "Slay International". This Korean based company is focused on 3 primary services: an international model and talent agency for the Korean market, copywriting/translation (English -> Korean and vice versa), and production service for promotional materials such as video advertising. In making this website I strive to coherently present these options to potential customers and ensure that the website quickly and efficiently leads them to the information they require while maintaining an appealing and professional image for the company. The site is built as my first Milestone project during my study at Code Institute, with the focus being on HTML/CSS. The site utilizes bootstrap as a core component.
  
+# TABLE OF CONTENTS
+
+-
+
 ## UX
 
-In making this website I strive to coherently present these options to potential customers and ensure that the website quickly and efficiently leads them to the information they require while maintaing an appealing and professional image for the company.
+In terms of the site's UI, the goal is to coherently present the services provided to potential customers and ensure that the website quickly and efficiently leads them to the information they require.
+
+Here are the 2 initial wireframes that I made, using Balsamiq. The site's design changed somewhat (specifically the navbar) during production but the foundational layout remains.
+
+![](assets/readme/wireframe.png)
+![](assets/wireframes/wireframe2.png)
 
 The primary user of this website will be customers wishing to avail of one of the 3 services available, a possible secondary user maybe models that wish to be promoted through the company.
 
