@@ -17,7 +17,11 @@ This website is designed to be the primary online presence for a start-up called
     2. [Future Features](#future)
 3. [Technologies Used](#tech)
 4. [Testing](#testing)
+    1. [Manual Testing](#manual)
+    2. [Automatic Testing](#auto)
 5. [Deployment](#deployment)
+    1. [Github Pages](#pages)
+    2. [Making A Local Clone](#local)
 6. [Credits](#credits)
 6. [Media](#Media)
 
@@ -95,9 +99,51 @@ The contact page has a simple contact form for clients to reach out to the busin
 
 ## Testing <a name="testing"></a>
 
-Testing was carried out both manually and automatically. While building the site I had a preview open in my browser that I would check
+Testing was carried out both manually and automatically. 
+
+### Manual Testing: <a name="manual"></a>
+
+While building the site I had a preview open in my browser that I would check
 after most changes to ensure that the results were as intended. I made use of developer tools within the browser constantly to check
 across a number of things, in particular the responsiveness of the site.
+
+My manual testing process was as follows.
+
+#### For each page I performed the following checks:
+    * Desktop
+        - Make sure content loads properly, and timely
+        - No errors
+        - Make sure buttons work correctly
+        - Make sure social links work correctly
+    * Mobile
+        - Repeat above tests
+        - Try common gestures like pinch to zoom, rotating orientation
+        - Test the toggle menu
+
+    All tests were performed across multiple browsers and OS.
+        
+#### For index.html I performed the following additional checks:
+        - Make sure call to action works
+        - Check animations of cards and their buttons
+ 
+#### For models.html I performed the following additional checks:
+        - Make sure gallery images load correctly
+        - Check animations of the cards
+        - Make sure the correct navbar button is displaying as active  
+
+#### For copywriting.html I performed the following additional checks:
+        - Make sure cards and main image load correctly
+        - Make sure the correct navbar button is displaying as active
+
+#### For production.html I performed the following additional checks:
+        - Make sure cards and main image load correctly
+        - Make sure the correct navbar button is displaying as active   
+        - Make sure the embedded youtube video is loading and formatted correctly
+
+#### For contact.html I performed the following additional checks:
+        - Make sure the form is loading and formatted correctly
+        - Make sure the correct navbar button is displaying as active     
+
 
 As an example of how I fixed an issue, I would sometimes find that text would not stay within a card, or would be misaligned. I would then
 use developer tools to check on that specific element's padding, margin etc and what other parts of the site were affecting it. Through developer
@@ -105,9 +151,17 @@ tools I could quickly and easily test numerous fixes and upon finding one that w
 was actually present in my code. This consistent and rigourous testing allowed for me to stay ontop of each section of the site, as I built it, 
 and ensure responsiveness and a consistent experience across a wide range of devices. 
 
-Automatic testing came in the form of the [W3C Validator](https://gilleece.github.io/CodeInstitute-Milestone-Project-1/) (which, as of this moment, shows no errors).
+### Automatic Testing: <a name="auto"></a>
+
+[W3C Validator](https://gilleece.github.io/CodeInstitute-Milestone-Project-1/) (which, as of this moment, shows no errors).
+
+I also used Lighthouse in chromium developer tools to automatically test the site. You can see the results below:
+
+![](assets/readme/lighthouse-results.png)
 
 ## Deployment <a name="deployment"></a>
+
+### GitHub Pages <a name="pages"></a>
 
 I deployed this site through GitHub pages. This was a simple process, as follows:
 
@@ -123,7 +177,32 @@ I deployed this site through GitHub pages. This was a simple process, as follows
 
 - After some time, the site will be deployed at: ```http://<username>.github.io/<repository-name>```
 
-To run the website locally, simple download from github ([here](https://github.com/Gilleece/CodeInstitute-Milestone-Project-1)) and double click on index.html after extracting the folder.
+### Making A Local Clone <a name="local"></a>
+
+
+- Log in to GitHub and locate the [GitHub Repository](https://github.com/Gilleece/CodeInstitute-Milestone-Project-1)
+- Under the repository name, click "Clone or download".
+- To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+- Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 
 ## Credits <a name="credits"></a>
@@ -149,9 +228,9 @@ To run the website locally, simple download from github ([here](https://github.c
 
 - [This](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22) guide was followed for the collapsible mobile menu.
 
-- I browsed [Templated](templated.co) for general layout ideas (however no code was used from here).
+- I browsed [Templated](https://www.templated.co) for general layout ideas (however no code was used from here).
 
 ### Media <a name="media"></a>
-- Royalty free stock photos and video from [Pexels](pexels.com).
+- Royalty free stock photos and video from [Pexels](https://www.pexels.com).
 
 
